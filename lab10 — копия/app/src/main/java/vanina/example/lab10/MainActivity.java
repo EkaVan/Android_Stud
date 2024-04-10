@@ -33,19 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*AssetManager asset = getAssets();
-        InputStream stream = null;
-
-        try {
-            stream = asset.open("lenna.png");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            stream.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+      
 
         bmp1 = BitmapFactory.decodeStream(stream);*/
         bmp1 = BitmapFactory.decodeResource(getResources(), R.drawable.photo);
@@ -61,43 +49,7 @@ public class MainActivity extends AppCompatActivity {
         img2.setImageBitmap(bmp2);
 
         brightness = findViewById(R.id.seekBar);
-        /*brightness.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser)
-            {
-                progress = seekBar.getProgress() - 255;
-                for(int x = 0; x < w; x++)
-                    for (int y = 0; y < h; y++) {
-                        int pixelColor = bmp1.getPixel(x, y);
-                        int pixelAlpha = Color.alpha(pixelColor);
-
-                        int pixelRed = Color.red(pixelColor) + progress;
-                        int pixelGreen = Color.green(pixelColor) + progress;
-                        int pixelBlue = Color.blue(pixelColor) + progress;
-
-                        if (pixelRed > 255) {
-                            pixelRed = 255;
-                        } else if (pixelRed < 0) {
-                            pixelRed = 0;
-                        }
-
-                        if (pixelGreen > 255) {
-                            pixelGreen = 255;
-                        } else if (pixelGreen < 0) {
-                            pixelGreen = 0;
-                        }
-
-                        if (pixelBlue > 255) {
-                            pixelBlue = 255;
-                        } else if (pixelBlue < 0) {
-                            pixelBlue = 0;
-                        }
-
-                        int newPixel = Color.argb(
-                                pixelAlpha, pixelRed, pixelGreen, pixelBlue);
-
-                        bmp2.setPixel(x, y, newPixel);
-                    } return;)*/
+     
     }
 
     public void copy(View v)
