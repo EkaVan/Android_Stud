@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:onClick="on_btn_click"
-            android:text="btn_sin"
+            android:text="sin"
             android:textSize="20sp" />
 
         <Button
@@ -122,7 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:onClick="on_btn_click"
-            android:text="btn_add"
+            android:text="add"
             android:textSize="20sp" />
 
         <Button
@@ -131,7 +131,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:onClick="on_btn_click"
-            android:text="btn_sub"
+            android:text="sub"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -148,7 +148,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:onClick="on_btn_click"
-            android:text="btn_cos"
+            android:text="cos"
             android:textSize="20sp" />
 
         <Button
@@ -157,7 +157,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:onClick="on_btn_click"
-            android:text="btn_mul"
+            android:text="mul"
             android:textSize="20sp" />
 
         <Button
@@ -166,7 +166,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:onClick="on_btn_click"
-            android:text="btn_div"
+            android:text="div"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -182,7 +182,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:onClick="on_btn_click"
-            android:text="btn_tan"
+            android:text="tan"
             android:textSize="20sp" />
 
         <Button
@@ -191,7 +191,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:onClick="on_btn_click"
-            android:text="btn_pow"
+            android:text="pow"
             android:textSize="20sp" />
 
         <Button
@@ -200,7 +200,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:onClick="on_btn_click"
-            android:text="btn_sqrt"
+            android:text="sqrt"
             android:textSize="20sp" />
     </LinearLayout>
 
