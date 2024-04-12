@@ -15,7 +15,7 @@ TextView tv;
 protected void onCreate(Bundle savedInstanceState){
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-    tv = (TextView) findViewById(R.id.TextView);
+    tv = (TextView) findViewById(R.id.txt_res);
 }
 
 public void on_button3_click(View v)
