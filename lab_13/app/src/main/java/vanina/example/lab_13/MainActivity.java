@@ -26,8 +26,9 @@ public void on_button3_click(View v)
         public void on_request_complete(String response)
         {
             Log.e("RESULT", response);
-            tv.
+            txt_res.setText(response);
         }
-    }
+    };
+    r.make_request("http://127.0.0.1:5000/test");
 }
 }
