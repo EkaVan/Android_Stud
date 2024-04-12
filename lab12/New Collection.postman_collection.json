@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "bf5102d0-7b49-42df-a1a5-fec03529df4f",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34227084",
+		"_collection_link": "https://www.postman.com/cryosat-saganist-11640723/workspace/lab-12/collection/34227084-bf5102d0-7b49-42df-a1a5-fec03529df4f?action=share&source=collection_link&creator=34227084"
+	},
+	"item": [
+		{
+			"name": "Сложение",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "a=10\n\nb= 20\n\nres = 30"
+			},
+			"response": []
+		},
+		{
+			"name": "Вычитание",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "a = 10\n\nb=20\n\nres = -10"
+			},
+			"response": []
+		},
+		{
+			"name": "Умножение",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "a = 10\n\nb=20\n\nres = 200"
+			},
+			"response": []
+		},
+		{
+			"name": "Деление",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "а=10\n\nb=20\n\nres= 0,5"
+			},
+			"response": []
+		},
+		{
+			"name": "Корень",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "a=10\n\nb=20\n\nres a=3.1622......\n\nres b =4,4721......."
+			},
+			"response": []
+		},
+		{
+			"name": "Синус",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "a=10\n\nb=20\n\nres a= 0,1736.......\n\nres b=0,34202......"
+			},
+			"response": []
+		},
+		{
+			"name": "Косинус",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "a=10\n\nb=20\n\nres a=0,9848....\n\nres b =0,9396...."
+			},
+			"response": []
+		},
+		{
+			"name": "Тангенс",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "a=10\n\nb=20\n\nres a =0,1763....\n\nres b = 0,3639....."
+			},
+			"response": []
+		},
+		{
+			"name": "Возведение в степень 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/test/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"test",
+						"10",
+						"20"
+					]
+				},
+				"description": "a=10\n\nb= 20\n\nres a =100\n\nres b =400"
+			},
+			"response": []
+		}
+	]
+}
